@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "bundleLink": {
+            "bundleInstanceId": "record_list_1",
+            "elementType": "member"
+        },
+        "conditionals": null,
+        "definition": {
+            "id": "61c315e9ccb8970546c30f3e2da41a32",
+            "type": "MACROPONENT_VIEWPORT"
+        },
+        "elementId": "list_viewport_modal",
+        "elementLabel": "List Viewport Modal",
+        "eventMappings": [],
+        "extensionPoints": [
+            {
+                "controllerElementId": "list_controller",
+                "name": "List page modals",
+                "sysId": "33d76156b7312110a2cb18075e11a9d8"
+            }
+        ],
+        "isHidden": null,
+        "overrides": null,
+        "preset": {
+            "controllerElementId": "list_controller",
+            "disabledEventTargetIds": [],
+            "id": "431df4d94fc3e404af2a7a1604dd08d6"
+        },
+        "propertyValues": {
+            "disableDismiss": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "size": {
+                "type": "JSON_LITERAL",
+                "value": "md"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "07b0bb09419d26f0af681796bc548f19",
+            "type": "MACROPONENT"
+        },
+        "elementId": "resizable_panes_1",
+        "elementLabel": "Resizable panes 1",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "9c14401e25035251d5ea66326d73bdfb",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "list_menu_1",
+                    "elementLabel": "Menu 1",
+                    "eventMappings": [],
+                    "preset": {
+                        "controllerElementId": "list_controller",
+                        "disabledEventTargetIds": [],
+                        "id": "259c0fea9323ce154fa0d7f25995808e"
+                    },
+                    "propertyValues": {},
+                    "slot": "left",
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "2b1c080881e05dc63b917044290b233f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "list___simple_1",
+                    "elementLabel": "List - Simple 1",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "bare": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "columnPreferenceKey": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "columns": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "fixedQuery": null,
+                        "followFilters": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "groupByField": null,
+                        "hideColumnFiltering": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideColumnGrouping": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideColumnReorder": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideColumnResizing": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideColumnSorting": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideDotwalk": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideEmptyStateImage": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideHeader": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideHighlightContent": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideHighlightedValues": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideInlineEditing": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideLastRefreshedText": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideLinks": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePersonalization": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideRefreshButton": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideRowSelector": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideTitle": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideTitleRowCount": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideViewAll": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "highlightContent": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "color": "",
+                                "patterns": []
+                            }
+                        },
+                        "highlightedValueConfigId": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "isDashboard": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "limit": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "listTitle": {
+                            "binding": {
+                                "address": [
+                                    "listTitle"
+                                ],
+                                "category": "props"
+                            },
+                            "type": "CONTEXT_BINDING"
+                        },
+                        "maxCharLimit": {
+                            "type": "JSON_LITERAL",
+                            "value": 4000
+                        },
+                        "maxColumns": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "nrlLandmark": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "overrideWordWrapUserPref": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "query": {
+                            "binding": {
+                                "address": [
+                                    "query"
+                                ],
+                                "category": "props"
+                            },
+                            "type": "CONTEXT_BINDING"
+                        },
+                        "refreshRequested": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "showBorder": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "table": {
+                            "binding": {
+                                "address": [
+                                    "table"
+                                ],
+                                "category": "props"
+                            },
+                            "type": "CONTEXT_BINDING"
+                        },
+                        "wordWrap": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        }
+                    },
+                    "slot": "right",
+                    "styles": null
+                }
+            ]
+        },
+        "preset": {
+            "controllerElementId": "list_controller",
+            "disabledEventTargetIds": [],
+            "id": "37aad4ae880f729c464e9a5a88a409d9"
+        },
+        "propertyValues": {},
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "bundleLinks": [
+            {
+                "bundleInstanceId": "record_list_1",
+                "elementType": "controller"
+            }
+        ],
+        "definition": {
+            "id": "5865e308432021105571609dc7b8f23b",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "list_controller",
+        "elementLabel": "List Controller",
+        "eventMappings": [
+            {
+                "eventMappingId": "clkubblwubaaccgffddbhhplggtlhhiiay",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_list_common.LIST_CTRL#ADD_NOTIFICATIONS_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_list_common.LIST_CTRL#ADD_NOTIFICATIONS_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": null
+                        },
+                        "operation": null,
+                        "targetId": "clkubblwucaaccgggddbhhpvtfmthffdd",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "clkwayluyaacchzddbhhqwnbbmqowii",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_list_common.LIST_CTRL#CLEAR_NOTIFICATIONS_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_list_common.LIST_CTRL#CLEAR_NOTIFICATIONS_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#CLEAR_NOTIFICATIONS",
+                            "payload": {}
+                        },
+                        "operation": null,
+                        "targetId": "clkwayluyaacciaaddbhhqggntpcgpbb",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "clmtghpyffaabbcjjddbhhvbbqzjjoywp",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_list_common.LIST_CTRL#REFERENCE_LINK_CLICKED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_list_common.LIST_CTRL#REFERENCE_LINK_CLICKED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": {
+                            "dataBrokerId": "5865e308432021105571609dc7b8f23b",
+                            "operationName": "LIST_CTRL#NAV_ITEM_SELECTED",
+                            "parentResourceId": "list_controller",
+                            "payload": {
+                                "container": {
+                                    "nativeEvent": {
+                                        "binding": {
+                                            "address": [
+                                                "nativeEvent"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    },
+                                    "route": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "record"
+                                    },
+                                    "row": {
+                                        "binding": {
+                                            "address": [
+                                                "row"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    },
+                                    "sys_id": {
+                                        "binding": {
+                                            "address": [
+                                                "sys_id"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    },
+                                    "table": {
+                                        "binding": {
+                                            "address": [
+                                                "table"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            }
+                        },
+                        "targetId": "clmtghpyggaabbcaddbhhvmkgiijjjjddl",
+                        "type": "DATABROKER_OP"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "clnbbnjjoffiiaaccnpddbhhsffirbbcmbbf",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_list_common.LIST_CTRL#CREATE_NEW_RECORD",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_list_common.LIST_CTRL#CREATE_NEW_RECORD",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": {
+                            "dataBrokerId": "5865e308432021105571609dc7b8f23b",
+                            "operationName": "LIST_CTRL#NAV_ITEM_SELECTED",
+                            "parentResourceId": "list_controller",
+                            "payload": {
+                                "container": {
+                                    "external": {
+                                        "binding": {
+                                            "address": [
+                                                "external"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    },
+                                    "fields": {
+                                        "binding": {
+                                            "address": [
+                                                "fields"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    },
+                                    "multiInstField": "sysId",
+                                    "params": {
+                                        "binding": {
+                                            "address": [
+                                                "params"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    },
+                                    "passiveNavigation": {
+                                        "binding": {
+                                            "address": [
+                                                "passiveNavigation"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    },
+                                    "redirect": {
+                                        "binding": {
+                                            "address": [
+                                                "redirect"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    },
+                                    "route": {
+                                        "binding": {
+                                            "address": [
+                                                "route"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    },
+                                    "title": {
+                                        "binding": {
+                                            "address": [
+                                                "title"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            }
+                        },
+                        "targetId": "clnbbnjjoffiiaaccnqddbhhscehheaddve",
+                        "type": "DATABROKER_OP"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "clndoggqmqaabbjiiddbhhtrejjhiibtff",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_list_common.LIST_CTRL#SELECTED_LIST_UPDATED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_list_common.LIST_CTRL#SELECTED_LIST_UPDATED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_now_list_common.LIST_TEMPLATE#UPDATE_URL_PARAMS",
+                            "payload": {
+                                "container": {
+                                    "params": {
+                                        "container": {
+                                            "listId": {
+                                                "binding": {
+                                                    "address": [
+                                                        "listId"
+                                                    ]
+                                                },
+                                                "type": "EVENT_PAYLOAD_BINDING"
+                                            }
+                                        },
+                                        "type": "MAP_CONTAINER"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "c83b7669bae290ccf8d719bab49e4c1e"
+                        },
+                        "operation": null,
+                        "targetId": "clndolhhfeeaabbjjddbhhtjiiiclplv",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "columnLimit": {
+                "type": "JSON_LITERAL",
+                "value": 0
+            },
+            "columns": {
+                "type": "JSON_LITERAL"
+            },
+            "fetchHighlightedValues": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "filter": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "highlightedValueConfigId": {
+                "binding": {
+                    "address": [
+                        "highlightedValueConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "listId": {
+                "binding": {
+                    "address": [
+                        "listId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "listMenuConfigurationId": {
+                "transform": {
+                    "operands": {
+                        "container": [
+                            {
+                                "binding": {
+                                    "address": [
+                                        "listConfigId"
+                                    ],
+                                    "category": "app"
+                                },
+                                "type": "CONTEXT_BINDING"
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "listConfigId"
+                                    ],
+                                    "category": "app"
+                                },
+                                "type": "CONTEXT_BINDING"
+                            },
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "d305c0a873601010a0a79329faf6a7cb"
+                            }
+                        ],
+                        "type": "LIST_CONTAINER"
+                    },
+                    "operator": "IF"
+                },
+                "type": "CLIENT_TRANSFORM"
+            },
+            "listType": {
+                "type": "JSON_LITERAL",
+                "value": "withMenu"
+            },
+            "rowLimit": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "task"
+            },
+            "transformScriptArgs": {
+                "type": "JSON_LITERAL"
+            },
+            "transformScriptSysId": {
+                "type": "JSON_LITERAL"
+            },
+            "view": {
+                "type": "JSON_LITERAL"
+            }
+        },
+        "preset": null,
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{}</form_factors>
+        <handled_events>c83b7669bae290ccf8d719bab49e4c1e</handled_events>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+    "sn_now_list_common.LIST_TEMPLATE#UPDATE_URL_PARAMS": [
+        {
+            "broker": null,
+            "clientScript": null,
+            "conditional": null,
+            "declarativeAction": null,
+            "event": {
+                "apiName": "sn_canvas_core.CONTENT_UPDATED",
+                "payload": {
+                    "container": {
+                        "params": {
+                            "binding": {
+                                "address": [
+                                    "params"
+                                ]
+                            },
+                            "type": "EVENT_PAYLOAD_BINDING"
+                        }
+                    },
+                    "type": "MAP_CONTAINER"
+                },
+                "sysId": "75f3815fb0d9c38bb6df1626a0f284c4"
+            },
+            "operation": null,
+            "targetId": "clnkguheeraaccjbddbhhtffbddyfjjddj",
+            "type": "EVENT"
+        }
+    ]
+}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "resizable_panes_1",
+                "styles": {
+                    "height": "100%"
+                }
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column",
+            "height": "100%"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": null,
+        "description": null,
+        "fieldType": "string",
+        "label": "listId",
+        "mandatory": false,
+        "name": "listId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "cmjjheggkffnaahhetddffiihheejaysxox",
+        "inherited": false,
+        "label": "Table",
+        "mandatory": false,
+        "name": "table",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "cmjjheiiiignaajjiivddffiihhemjecwsj",
+        "inherited": false,
+        "label": "listTitle",
+        "mandatory": false,
+        "name": "listTitle",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "cmjjheiiiignaajjiiwddffiihhaccyseehhcii",
+        "inherited": false,
+        "label": "query",
+        "mandatory": false,
+        "name": "query",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "cmjjheiiiignaajjiixddffiihhcctiicxheet",
+        "inherited": false,
+        "label": "listView",
+        "mandatory": false,
+        "name": "listView",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    }
+}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 18:07:47</sys_created_on>
+        <sys_id>803762dbc33422100a815d02b40131d6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_803762dbc33422100a815d02b40131d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 18:23:36</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=803762dbc33422100a815d02b40131d6"/>
+</record_update>
